@@ -44,7 +44,7 @@ Image-editing workloads are highly parallel, since the same operation is applied
 | 4 MP | 47.2 ms | 32.7 ms | 1.44x | 1,248.3 ms | 196.4 ms | 6.4x | 25.2 ms |
 | 8 MP | 93.2 ms | 59.1 ms | 1.58x | 2,570.3 ms | 322.0 ms | 8.0x | 34.2 ms |
 
-The raw numbers are saved in the notebook as `results.csv`.
+The raw numbers are in [`results.csv`](results.csv).
 
 ## Conclusion
 
@@ -66,4 +66,5 @@ Or view the notebook on GitHub: [CAO_Project.ipynb](CAO_Project.ipynb)
 |---|---|
 | `CAO_Project.ipynb` | Full notebook: implementations, benchmarks and plots |
 | `images.jpg` | Input photo used for all tests |
+| `results.csv` | Raw benchmark numbers from the notebook run |
 | `results/` | Before/after image used in this README |
