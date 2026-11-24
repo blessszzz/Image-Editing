@@ -22,4 +22,4 @@ Open the notebook directly in Google Colab (set the runtime to GPU):
 
 Or view the notebook on GitHub: [CAO_Project.ipynb](CAO_Project.ipynb)
 
-**Input image:** the notebook loads `images.jpg` from the repo root. In Colab, upload it through the folder icon in the left sidebar before running, or add a cell at the top with `!wget -q https://raw.githubusercontent.com/blessszzz/Image-Editing/main/images.jpg`. To test your own photo, replace it with another image of the same name. The AI masking step looks for a cat (COCO class 17), so use a photo with a cat in it, or change the class ID in the notebook.
+**Input image:** the notebook loads [`images.jpg`](https://github.com/blessszzz/Image-Editing/blob/main/images.jpg) from the repo root (tap the link to open it). In Colab, upload it through the folder icon in the left sidebar before running, or add a cell at the top with `!wget -q https://raw.githubusercontent.com/blessszzz/Image-Editing/main/images.jpg`. To test your own photo, replace it with another image of the same name. The AI masking step looks for a cat (COCO class 17), so use a photo with a cat in it, or change the class ID in the notebook.
