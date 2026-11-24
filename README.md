@@ -13,3 +13,11 @@ Image-editing workloads are highly parallel, since the same operation is applied
 | **Color grading** | Per-pixel adjustment of color (e.g. exposure, contrast, curves, LUTs, white balance) | Compute-light, fully parallel, memory-bound |
 | **Masking** | Builds and applies a selection mask (e.g. thresholding, feathering, blur of mask edges) to restrict edits to a region | Mix of per-pixel and neighborhood operations |
 | **Fusion** | Combines multiple images into one (e.g. alpha blending, exposure fusion, multi-resolution blending) | Several inputs, higher memory traffic |
+
+## Run the code
+
+Open the notebook directly in Google Colab (set the runtime to GPU):
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/blessszzz/Image-Editing/blob/main/CAO_Project.ipynb)
+
+Or view the notebook on GitHub: [CAO_Project.ipynb](CAO_Project.ipynb)
